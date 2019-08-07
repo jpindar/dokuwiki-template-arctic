@@ -6,7 +6,7 @@
 
 /* ----- General Elements ----- */
 body {
-  font: __font_size__ Verdana, "Lucida Grande", Lucida, Helvetica, Arial, sans-serif;
+  font: __font_size__ Verdana, Lucida, Helvetica, Arial, sans-serif;
   color: __text__;
   margin: __body_margin__;
   line-height: __line_height__;
@@ -106,7 +106,7 @@ div.dokuwiki div.right_sidebar h4,
 div.dokuwiki div.right_sidebar h5,
 div.dokuwiki div.right_sidebar h6 {
   font-size: 100%;
-  font-family: Verdana, "Lucida Grande", Lucida, Helvetica, Arial, sans-serif;
+  font-family: Verdana, Lucida, Helvetica, Arial, sans-serif;
   font-weight: bold;
   padding: 0.1em;
   border: none;

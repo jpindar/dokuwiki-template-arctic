@@ -10,7 +10,7 @@
 * { padding: 0; margin: 0; }
 
 body {
-  font: 80% "Lucida Grande", Verdana, Lucida, Helvetica, Arial, sans-serif;
+  font: 80% Verdana, Lucida, Helvetica, Arial, sans-serif;
   background-color: __background__;
   color: __text__;
 }
@@ -85,7 +85,7 @@ div.dokuwiki fieldset {
 }
 
 div.dokuwiki textarea.edit {
-  font-family: Consolas, Lucinda Console, monospace, serif;
+  font-family: Consolas, Lucinda Console, monospace, sans-serif;
   /* second generic font fixes problem with font-size, see
      http://meyerweb.com/eric/thoughts/2010/02/12/fixed-monospace-sizing/ */
   font-size: 100%;
@@ -472,7 +472,7 @@ div.dokuwiki blockquote {
 
 div.dokuwiki pre,
 div.dokuwiki code {
-  font-family: Consolas, Lucinda Console, monospace, serif;
+  font-family: Consolas, Lucinda Console, monospace, sans-serif;
   /* second generic font fixes problem with font-size, see
      http://meyerweb.com/eric/thoughts/2010/02/12/fixed-monospace-sizing/ */
   font-size: 100%;
