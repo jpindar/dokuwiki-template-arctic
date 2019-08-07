@@ -164,8 +164,7 @@ div.dokuwiki .bar a.action {
 }
 
 div.dokuwiki a.urlextern{
-    background: transparent url(images/urlextern.png) 0px 1px no-repeat;
-    padding-left: 18px;
+   /* padding-left: 18px;*/
 }
 div.dokuwiki a.urlextern:visited,
 div.dokuwiki a.windows:visited,

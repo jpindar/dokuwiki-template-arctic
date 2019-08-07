@@ -276,14 +276,12 @@ div.dokuwiki a.nolink {
 
 /* external link */
 div.dokuwiki a.urlextern {
-  background: transparent url(images/link_icon.gif) 0px 1px no-repeat;
-  padding: 1px 0px 1px 16px;
+  padding: 1px 0px 1px 0px;
 }
 
 /* windows share */
 div.dokuwiki a.windows {
-  background: transparent url(images/windows.gif) 0px 1px no-repeat;
-  padding: 1px 0px 1px 16px;
+  padding: 1px 0px 1px 0px;
 }
 
 /* interwiki link (icon are set by dokuwiki) */
@@ -316,7 +314,6 @@ div.dokuwiki a.interwiki:active {
 
 /* email link */
 div.dokuwiki a.mail {
-  background: transparent url(images/mail_icon.gif) 0px 1px no-repeat;
   padding: 1px 0px 1px 16px;
 }
 
