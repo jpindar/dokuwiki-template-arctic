@@ -332,7 +332,7 @@ div.dokuwiki a.wikilink2 {
 /* ------------- Page elements ----------------- */
 
 div.dokuwiki div.preview {
-  background-color: __background_neu__;
+  background-color: __background__;
   margin: 0 0 0 2em;
   padding: 4px;
   border: 1px dashed __text__;
