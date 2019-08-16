@@ -13,12 +13,13 @@ body {
   background: __body_background__;
 }
 
-div#wrapper {
+div#wrapper {      /* everything, headers, sidebars and all */
   margin: auto;
   width: __wiki_width__;
   border: 1px solid __border__;
   background: __background__;
   padding: __page_padding__;
+  border-radius:20px;
 }
 div#wrapper.media {
   width: __wiki_full_width__;
@@ -28,14 +29,12 @@ div.dokuwiki div.left_sidebar {
   float: left;
   width: 22%;
   padding: 0.2em 0.5em 0 0;
-  border-right: 1px solid  __border__;
 }
 
 div.dokuwiki div.right_sidebar {
   float: right;
   width: 22%;
   padding: 0.2em 0em 0 0.5em;
-  border-left: 1px solid __border__;
 }
 
 div.dokuwiki div.page {
@@ -64,13 +63,13 @@ div.dokuwiki main.center_page {
 div.footerinc {
   border: 1px solid __border__;
   background-color: __footer_background__;
+  border-radius:10px;
   margin-top: 0.5em;
 }
 
 div.dokuwiki .footerinc a img {
   padding-top: __footer_padding__;
   padding-bottom: __footer_padding__;
-  border: 0;
 }
 
 /* ----- Sidebar -------------- */
@@ -138,6 +137,7 @@ div.dokuwiki div.right_sidebar ul {
 
 div.dokuwiki aside.sidebar_box {
   border: 1px solid __border__;
+  border-radius:10px;
   margin-bottom: 0.2em;
   padding: 0.3em;
   overflow: hidden;
@@ -164,7 +164,6 @@ div.dokuwiki .bar a.action {
 }
 
 div.dokuwiki a.urlextern{
-   /* padding-left: 18px;*/
 }
 div.dokuwiki a.urlextern:visited,
 div.dokuwiki a.windows:visited,
@@ -367,65 +366,51 @@ div.dokuwiki div.toolbox_sidebar a.npd {
 }
 
 div.dokuwiki div.toolbox_sidebar a.login {
-  background: transparent url(images/tool-login.png) 0px 1px no-repeat;
 }
 
 div.dokuwiki div.toolbox_sidebar a.logout,
 div.dokuwiki div.bar a.logout {
-  background: transparent url(images/tool-logout.png) 0px 1px no-repeat;
 }
 
 div.dokuwiki div.toolbox_sidebar a.index {
-  background: transparent url(images/tool-index.png) 1px 1px no-repeat;
 }
 
 div.dokuwiki div.toolbox_sidebar a.recent {
-  background: transparent url(images/tool-recent.png) 0px 1px no-repeat;
 }
 
 div.dokuwiki div.toolbox_sidebar a.create,
 div.dokuwiki div.toolbox_sidebar a.edit,
 div.dokuwiki div.toolbox_sidebar a.npd {
-  background: transparent url(images/tool-edit.png) 0px 1px no-repeat;
 }
 
 div.dokuwiki div.toolbox_sidebar a.source,
 div.dokuwiki div.toolbox_sidebar a.show {
-  background: transparent url(images/tool-source.png) 0px 1px no-repeat;
 }
 
 div.dokuwiki div.toolbox_sidebar a.admin {
-  background: transparent url(images/tool-admin.png) 0px 1px no-repeat;
 }
 
 div.dokuwiki div.toolbox_sidebar a.revs {
-  background: transparent url(images/tool-revisions.png) 0px 1px no-repeat;
 }
 
 div.dokuwiki div.toolbox_sidebar a.subscribe,
 div.dokuwiki div.toolbox_sidebar a.subscribens,
 div.dokuwiki div.toolbox_sidebar a.unsubscribe,
 div.dokuwiki div.toolbox_sidebar a.unsubscribens {
-  background: transparent url(images/tool-subscribe.png) 0px 1px no-repeat;
 }
 
 div.dokuwiki div.toolbox_sidebar a.backlink {
-  background: transparent url(images/tool-backlink.png) 0px 1px no-repeat;
 }
 div.dokuwiki div.toolbox_sidebar a.media {
-  background: transparent url(images/mediamanager.png) 0px 1px no-repeat;
 }
 
 div.dokuwiki div.toolbox_sidebar a.profile {
-  background: transparent url(images/tool-profile.png) 0px 1px no-repeat;
 }
 
 div.dokuwiki div.toolbox_sidebar a.revert {
-  background: transparent url(images/tool-revert.png) 0px 1px no-repeat;
 }
 
 div.dokuwiki div.toolbox_sidebar a.top {
-  background: transparent url(images/tool-top.png) 0px 5px no-repeat;
 }
 
 div.dokuwiki div.bar a.media,
@@ -452,64 +437,50 @@ div.dokuwiki div.bar a.npd {
 }
 
 div.dokuwiki div.bar a.login {
-  background: transparent url(images/tool-login.png) 0px 5px no-repeat;
 }
 
 div.dokuwiki div.bar a.logout,
 div.dokuwiki div.bar a.logout {
-  background: transparent url(images/tool-logout.png) 0px 5px no-repeat;
 }
 
 div.dokuwiki div.bar a.index {
-  background: transparent url(images/tool-index.png) 0px 5px no-repeat;
 }
 
 div.dokuwiki div.bar a.recent {
-  background: transparent url(images/tool-recent.png) 0px 5px no-repeat;
 }
 
 div.dokuwiki div.bar a.create,
 div.dokuwiki div.bar a.edit,
 div.dokuwiki div.bar a.npd {
-  background: transparent url(images/tool-edit.png) 0px 5px no-repeat;
 }
 
 div.dokuwiki div.bar a.source,
 div.dokuwiki div.bar a.show {
-  background: transparent url(images/tool-source.png) 0px 5px no-repeat;
 }
 
 div.dokuwiki div.bar a.admin {
-  background: transparent url(images/tool-admin.png) 0px 5px no-repeat;
 }
 
 div.dokuwiki div.bar a.revs {
-  background: transparent url(images/tool-revisions.png) 0px 5px no-repeat;
 }
 
 div.dokuwiki div.bar a.subscribe,
 div.dokuwiki div.bar a.subscribens,
 div.dokuwiki div.bar a.unsubscribe,
 div.dokuwiki div.bar a.unsubscribens {
-  background: transparent url(images/tool-subscribe.png) 0px 5px no-repeat;
 }
 
 div.dokuwiki div.bar a.backlink {
-  background: transparent url(images/tool-backlink.png) 0px 5px no-repeat;
 }
 
 div.dokuwiki div.bar a.profile {
-  background: transparent url(images/tool-profile.png) 0px 5px no-repeat;
 }
 
 div.dokuwiki div.bar a.top {
-  background: transparent url(images/tool-top.png) 0px 5px no-repeat;
 }
 
 div.dokuwiki div.bar a.revert {
-  background: transparent url(images/tool-revert.png) 0px 5px no-repeat;
 }
 div.dokuwiki div.bar a.media {
-  background: transparent url(images/mediamanager.png) 0px 5px no-repeat;
 }
 

@@ -39,12 +39,13 @@ div.dokuwiki .logo a {
   letter-spacing: 2pt;
 }
 
-/* ---------------  top and bottom bar ---------------- */
+/* ---------------  toolbars above and below main content --- */
 div.dokuwiki .bar {
   border-top: 1px solid __border__;
   border-bottom: 1px solid __border__;
   background: __background_alt__;
   padding: 0.1em 0.15em;
+  border-radius:10px;
   clear: both;
 }
 

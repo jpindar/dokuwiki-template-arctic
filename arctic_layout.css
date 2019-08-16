@@ -8,6 +8,7 @@ div.dokuwiki .header {
   height: __header_height__;
   border: 1px solid __border__;
   background-color: __header_background__;
+  border-radius:10px;
   margin-bottom: 0.2em;
 }
 
